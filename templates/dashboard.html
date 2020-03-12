@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+<dev>
+    <p>today's date: {{date}}</p>
+    <p>activities of today {{activities}}</p>
+</dev>
+<dev>
+    <p>Insert activity</p>
+    <form action="/activity" method="POST">
+        Activity name <br>
+        <input type="text" name="activity_name"><br>
+        Start time in format hh:mm<br>
+        <input type="text" name="start_time"><br>
+        End time time in format hh:mm<br>
+        <input type="text" name="end_time"><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</dev>
+</body>
+</html>
