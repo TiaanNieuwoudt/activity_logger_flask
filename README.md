@@ -1,1 +1,1 @@
-"# Activity_logger" 
+This is a simple activity logger that you can use to manually log activities by time and name. It has a few time and date functions attached. The activities then gets commited into a database via sqlite. This project is by no means in any sort of format, but anyone that sees any value in this, please do with it as you please. Also welcome to leave comments - Negative or positive :D
